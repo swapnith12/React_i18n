@@ -1,4 +1,4 @@
-import i18next, { changeLanguage } from "i18next"
+import i18next from "i18next"
 import { Button } from "../components/ui/button"
 import { useNavigate } from "react-router-dom"
 

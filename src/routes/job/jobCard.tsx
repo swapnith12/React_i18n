@@ -6,7 +6,7 @@ import {
     CardTitle,
 } from "../../components/ui/card"
 import { Button } from "@/components/ui/button";
-import type { Job, Jobs } from "@/lib/types";
+import type { Job} from "@/lib/types";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 

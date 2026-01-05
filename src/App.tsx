@@ -6,11 +6,9 @@ import Jobs from './routes/job/jobs'
 import { JobSelection } from './routes/JobSelection'
 import {store} from './lib/redux'
 import { Provider } from 'react-redux'
-import { useTranslation } from 'react-i18next'
 
 
 function App() {
-  const { t } = useTranslation()
   return (
     <Provider store={store}>
     <BrowserRouter>

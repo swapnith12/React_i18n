@@ -1,5 +1,5 @@
 import { http, HttpResponse } from "msw";
-import type { Job, Jobs } from "../lib/types";
+import type {  Jobs } from "../lib/types";
 import * as driver from "../mocks/driver.json";
 import * as plumber from "../mocks/plumber.json";
 import * as mechanic from "../mocks/mechanic.json";

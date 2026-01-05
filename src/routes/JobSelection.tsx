@@ -4,7 +4,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
@@ -58,6 +57,7 @@ export function JobSelection() {
                         <div className="grid gap-2">
                             <Label htmlFor="FirstName">{t('firstname')}</Label>
                             <Input
+                               aria-label="FirstName"
                                 id="FirstName"
                                 type="text"
                                 placeholder={t('firstname')}
@@ -70,16 +70,19 @@ export function JobSelection() {
                                 <Label htmlFor="LastName">{t('lastname')}</Label>
                             </div>
                             <Input id="LastName"
+                                aria-label="lastname"
                                 type="text"
                                 placeholder={t('lastname')}
                                 onChange={(e) => onHandleChange("lastName", e.target.value)}
                                 required />
                         </div>
                         <div className="grid gap-3">
-                            <Label>{t('role')}</Label>
+                            <Label aria-label="role lable">{t('role')}</Label>
 
                             <label className="flex items-center gap-2">
                                 <input
+                                    id="Driver"
+                                    aria-label="Driver"
                                     type="radio"
                                     name="role"
                                     value="Driver"
@@ -92,6 +95,7 @@ export function JobSelection() {
 
                             <label className="flex items-center gap-2">
                                 <input
+                                    aria-label="Mechanic"
                                     type="radio"
                                     name="role"
                                     value="Mechanic"
@@ -104,6 +108,7 @@ export function JobSelection() {
 
                             <label className="flex items-center gap-2">
                                 <input
+                                    aria-label="Plumber"
                                     type="radio"
                                     name="role"
                                     value="Plumber"
@@ -116,7 +121,7 @@ export function JobSelection() {
                         </div>
 
                         {/* Single Submit */}
-                        <Button variant='outline' type="submit" className="w-full">
+                        <Button aria-label="submit" variant='outline' type="submit" className="w-full">
                             {t('submit')}
                         </Button>
                     </div>
