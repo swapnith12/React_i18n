@@ -12,7 +12,7 @@ import {
 const queryClient = new QueryClient()
 
 async function enableMocking() {
-  return worker.start()
+  return worker.start({ onUnhandledRequest: "bypass",quiet: true,})
 }
  
 enableMocking().then(() => {
