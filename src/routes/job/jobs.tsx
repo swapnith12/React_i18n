@@ -15,7 +15,8 @@ export default function Jobs() {
 
   const getJobs = async (): Promise<JobsResponse> => {
     console.log(role)
-    const res = await fetch(`/api/${role}/jobs`)
+    const url = `/api/${role}/jobs`
+    const res = await fetch(url)
     if (!res.ok) throw new Error("Failed to fetch jobs")
     const data = await res.json()
     return data

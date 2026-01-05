@@ -14,13 +14,4 @@ export const handlers = [
   http.get<never, never, Jobs>("/api/Mechanic/jobs", () => {
     return HttpResponse.json<Jobs>(mechanic);
   }),
-
-  http.post<never, never, Jobs>("/api/driver/jobs", () => {
-    const appliedJobJson = driver.map((each) => ({
-      ...each,
-      applied: true,
-    }));
-
-    return HttpResponse.json<Jobs>(appliedJobJson);
-  }),
 ];
