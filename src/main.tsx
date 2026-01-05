@@ -12,10 +12,6 @@ import {
 const queryClient = new QueryClient()
 
 async function enableMocking() {
-  //@ts-ignore
-  if (process.env.NODE_ENV !== 'development') {
-    return
-  }
   return worker.start()
 }
  
