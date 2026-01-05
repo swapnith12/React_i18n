@@ -1,0 +1,51 @@
+[
+  { "id":1,
+    "role": "Plumber",
+    "payment": "₹500",
+    "verifiedCompany": true,
+    "companyName": "Shree Ganesh Plumbing Works",
+    "applied":false
+  },
+  { "id":2,
+    "role": "Plumber",
+    "payment": "₹750",
+    "verifiedCompany": false,
+    "companyName": "Ravi Home Services",
+    "applied":false
+  },
+  {  "id":3,
+    "role": "Plumber",
+    "payment": "₹1000",
+    "verifiedCompany": true,
+    "companyName": "Urban Fix Solutions",
+    "applied":false
+  },
+  { "id":4,
+    "role": "Plumber",
+    "payment": "₹1200",
+    "verifiedCompany": true,
+    "companyName": "Sai Ram Plumbing Services",
+    "applied":false
+  },
+  { "id":5,
+    "role": "Plumber",
+    "payment": "₹1500",
+    "verifiedCompany": false,
+    "companyName": "Metro Care Maintenance",
+    "applied":false
+  },
+  {  "id":6,
+    "role": "Plumber",
+    "payment": "₹1800",
+    "verifiedCompany": true,
+    "companyName": "AquaFlow Engineers India",
+    "applied":false
+  },
+  {  "id":7,
+    "role": "Plumber",
+    "payment": "₹2000",
+    "verifiedCompany": true,
+    "companyName": "BuildRight Facility Services",
+    "applied":false
+  }
+]

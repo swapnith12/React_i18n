@@ -1,0 +1,58 @@
+[
+  { "id":1,
+    "role": "Mechanic",
+    "payment": "₹7000/month",
+    "verifiedCompany": true,
+    "companyName": "AutoCare India Services",
+    "applied":false
+  },
+  { "id":2,
+    "role": "Mechanic",
+    "payment": "₹9000/month",
+    "verifiedCompany": false,
+    "companyName": "SpeedFix Garage",
+    "applied":false
+  },
+  {  "id":3,
+    "role": "Mechanic",
+    "payment": "₹1100/month",
+    "verifiedCompany": true,
+    "companyName": "MotorTech Solutions",
+    "applied":false
+  },
+  {  "id":4,
+    "role": "Mechanic",
+    "payment": "₹13000/month",
+    "verifiedCompany": true,
+    "companyName": "Prime Auto Works",
+    "applied":false
+  },
+  {  "id":5,
+    "role": "Mechanic",
+    "payment": "₹15000/month",
+    "verifiedCompany": false,
+    "companyName": "QuickWrench Services",
+    "applied":false
+  },
+  {  "id":6,
+    "role": "Mechanic",
+    "payment": "₹17000/month",
+    "verifiedCompany": true,
+    "companyName": "GearUp Vehicle Care",
+    "applied":false
+  },
+  {  "id":7,
+    "role": "Mechanic",
+    "payment": "₹19000/month",
+    "verifiedCompany": true,
+    "companyName": "TorquePoint Automotive",
+    "applied":false
+  },
+  {  "id":8,
+    "role": "Mechanic",
+    "payment": "₹20000/month",
+    "verifiedCompany": true,
+    "companyName": "Nationwide Auto Services",
+    "applied":false
+  }
+]

@@ -1,0 +1,58 @@
+[
+  { "id":1,
+    "role": "Driver",
+    "payment": "₹600/day",
+    "verifiedCompany": true,
+    "companyName": "SafeRide Transport Services",
+    "applied":false
+  },
+  { "id":2,
+    "role": "Driver",
+    "payment": "₹800/day",
+    "verifiedCompany": false,
+    "companyName": "CityLink Cab Solutions",
+    "applied":false
+  },
+  { "id":3,
+    "role": "Driver",
+    "payment": "₹1000/day",
+    "verifiedCompany": true,
+    "companyName": "RapidGo Logistics",
+    "applied":false
+  },
+  { "id":4,
+    "role": "Driver",
+    "payment": "₹1200/day",
+    "verifiedCompany": true,
+    "companyName": "Urban Move Travels",
+    "applied":false
+  },
+  { "id":5,
+    "role": "Driver",
+    "payment": "₹1400/day",
+    "verifiedCompany": false,
+    "companyName": "Highway King Transport",
+    "applied":false
+  },
+  { "id":6,
+    "role": "Driver",
+    "payment": "₹1600/day",
+    "verifiedCompany": true,
+    "companyName": "BlueRoute Delivery Services",
+    "applied":false
+  },
+  {  "id":7,
+    "role": "Driver",
+    "payment": "₹1800/day",
+    "verifiedCompany": true,
+    "companyName": "ExpressHaul India",
+    "applied":false
+  },
+  {  "id":8,
+    "role": "Driver",
+    "payment": "₹2000/day",
+    "verifiedCompany": true,
+    "companyName": "FleetOne Mobility Solutions",
+    "applied":false
+  }
+]
