@@ -6,11 +6,14 @@ import { useQuery } from "@tanstack/react-query"
 import type { Jobs } from "@/lib/types"
 import { useTranslation } from "react-i18next"
 
+type JobsResponse={
+  default:Jobs
+}
 export default function Jobs() {
   const role = useSelector((state: RootState) => state.user.role)
   const {t} = useTranslation()
 
-  const getJobs = async (): Promise<Jobs> => {
+  const getJobs = async (): Promise<JobsResponse> => {
     console.log(role)
     const res = await fetch(`/api/${role}/jobs`)
     if (!res.ok) throw new Error("Failed to fetch jobs")
@@ -18,7 +21,7 @@ export default function Jobs() {
     return data
   }
 
-  const { data, error, isLoading } = useQuery<Jobs, Error>({
+  const { data, error, isLoading } = useQuery<JobsResponse, Error>({
     queryKey: ["job", role],
     queryFn: getJobs,
   })
